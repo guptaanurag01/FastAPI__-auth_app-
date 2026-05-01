@@ -16,3 +16,8 @@ auth_app/
   
   
 pip install fastapi uvicorn sqlalchemy psycopg2-binary passlib[bcrypt] python-jose
+
+
+
+
+python -m uvicorn main:app --reload
